@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.js">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <p>this is a paragraph tag</p>
+    <button  id="demo" Onclick = "changed()">me and you</button> -->
+
+    <!-- <div>
+        <div > 
+            <form style="display: flex; margin: 20px;">
+                <input id="numberone" style="width: 120px; height: 55px;" type="number">
+                <div style="margin: 10px 20px ;">
+                    <p>+</p>
+                </div>
+                <input id="numbertwo" style="width: 120px; height: 55px;" type="number">
+                <div style="margin: 10px 20px ;">
+                    <p>=</p>
+                </div>
+                <div style="margin: 10px 20px ;">
+                    <p id="result"></p>
+                </div>
+            </form>
+            <button onclick="addNum()" style="margin: 20px;"> Add </button>
+        </div>
+    </div>
+
+    <div>
+        <div > 
+            <form style="display: flex; margin: 20px;">
+                <input id="numberthree" style="width: 120px; height: 55px;" type="number">
+                <div style="margin: 10px 20px ;">
+                    <p>x</p>
+                </div>
+                <input id="numberfour" style="width: 120px; height: 55px;" type="number">
+                <div style="margin: 10px 20px ;">
+                    <p>=</p>
+                </div>
+                <div style="margin: 10px 20px ;">
+                    <p id="result1"></p>
+                </div>
+            </form>
+            <button onclick="multiplyNum()" style="margin: 20px;"> multiply </button>
+        </div>
+    </div>
+
+    <div>
+        <div > 
+            <form style="display: flex; margin: 20px;">
+                <input id="numberfive" style="width: 120px; height: 55px;" type="number">
+                <div style="margin: 10px 20px ;">
+                    <p>/</p>
+                </div>
+                <input id="numbersix" style="width: 120px; height: 55px;" type="number">
+                <div style="margin: 10px 20px ;">
+                    <p>=</p>
+                </div>
+                <div style="margin: 10px 20px ;">
+                    <p id="result2"></p>
+                </div>
+            </form>
+            <button onclick="divideNum()" style="margin: 20px;"> divide </button>
+        </div>
+    </div>
+
+    <div>
+        <div > 
+            <form style="display: flex; margin: 20px;">
+                <input id="numberseven" style="width: 120px; height: 55px;" type="number">
+                <div style="margin: 10px 20px ;">
+                    <p>-</p>
+                </div>
+                <input id="numbereight" style="width: 120px; height: 55px;" type="number">
+                <div style="margin: 10px 20px ;">
+                    <p>=</p>
+                </div>
+                <div style="margin: 10px 20px ;">
+                    <p id="result3"></p>
+                </div>
+            </form>
+            <button onclick="subtractNum()" style="margin: 20px;"> subtract </button>
+        </div>
+    </div>
+
+
+    <div>
+        <div > 
+            <form style="display: flex; margin: 20px;">
+                <input id="numberx1" style="width: 120px; height: 55px;" type="number">
+                <div style="margin: 10px 20px ;">
+                    <p>?</p>
+                </div>
+                <input id="numberx2" style="width: 120px; height: 55px;" type="number">
+                <div style="margin: 10px 20px ;">
+                    <p>=</p>
+                </div>
+                <div style="margin: 10px 20px ;">
+                    <p id="resultx3"></p>
+                </div>
+            </form>
+            <button onclick="subtractNum()" style="margin: 20px;"> subtract </button>
+            <button onclick="addNum()" style="margin: 20px;"> add </button>
+            <button onclick="multiplyNum()" style="margin: 20px;"> multiply </button>
+            <button onclick="divideNum()" style="margin: 20px;"> divide </button>
+        </div>
+    </div> -->
+    <div style="border: 2px solid black; width: fit-content; ">
+        <div>
+            <input type="number" style=" background-color:lightblue; height: 40px; width: 545px; margin: 10px 20px 2px 25px; border: 2px solid blue;">
+        </div>
+        <div>
+            <div>
+                <ul style="list-style-type: none; display: flex; padding: 5px 20px 5px 20px; margin: 2px;">
+                    <li style="width: 70px; height: 30px; text-align: center; padding-top: 10px; margin: 2px 5px 2px 5px ; background-color: lightgrey;">Inv</li>
+                    <li style="width: 70px; height: 30px; text-align: center; padding-top: 10px; margin: 2px 5px 2px 5px ; background-color: lightgrey;">Deg</li>
+                    <li style="width: 70px; height: 30px; text-align: center; padding-top: 10px; margin: 2px 5px 2px 5px ; background-color: lightgrey;">x!</li>
+                    <li style="width: 70px; height: 30px; text-align: center; padding-top: 10px; margin: 2px 5px 2px 5px ; background-color: lightgrey;">(</li>
+                    <li style="width: 70px; height: 30px; text-align: center; padding-top: 10px; margin: 2px 5px 2px 5px ; background-color: lightgrey;">)</li>
+                    <li style="width: 70px; height: 30px; text-align: center; padding-top: 10px; margin: 2px 5px 2px 5px ; background-color: lightgrey;">c</li>
+                    <li style="width: 70px; height: 30px; text-align: center; padding-top: 10px; margin: 2px 5px 2px 5px ; background-color: lightgrey;">del</li>
+                </ul>
+            </div>
+            <div>
+                <ul style="list-style-type: none; display: flex; padding: 5px 20px 5px 20px; margin: 2px;">
+                    <li style="width: 70px; height: 30px; text-align: center; padding-top: 10px; margin: 2px 5px 2px 5px ; background-color: lightgrey;">In</li>
+                    <li style="width: 70px; height: 30px; text-align: center; padding-top: 10px; margin: 2px 5px 2px 5px ; background-color: lightgrey;">sin</li>
+                    <li style="width: 70px; height: 30px; text-align: center; padding-top: 10px; margin: 2px 5px 2px 5px ; background-color: lightgrey;">%</li>
+                    <li style="width: 70px; height: 30px; text-align: center; padding-top: 10px; margin: 2px 5px 2px 5px ; background-color: grey;">7</li>
+                    <li style="width: 70px; height: 30px; text-align: center; padding-top: 10px; margin: 2px 5px 2px 5px ; background-color: grey;">8</li>
+                    <li style="width: 70px; height: 30px; text-align: center; padding-top: 10px; margin: 2px 5px 2px 5px ; background-color: grey;">9</li>
+                    <li style="width: 70px; height: 30px; text-align: center; padding-top: 10px; margin: 2px 5px 2px 5px ; background-color: lightgrey;">÷</li>
+                </ul>
+            </div>
+            <div>
+                <ul style="list-style-type: none; display: flex; padding: 5px 20px 5px 20px; margin: 2px;">
+                    <li style="width: 70px; height: 30px; text-align: center; padding-top: 10px; margin: 2px 5px 2px 5px ; background-color: lightgrey;">log</li>
+                    <li style="width: 70px; height: 30px; text-align: center; padding-top: 10px; margin: 2px 5px 2px 5px ; background-color: lightgrey;">cos</li>
+                    <li style="width: 70px; height: 30px; text-align: center; padding-top: 10px; margin: 2px 5px 2px 5px ; background-color: lightgrey;">√</li>
+                    <li style="width: 70px; height: 30px; text-align: center; padding-top: 10px; margin: 2px 5px 2px 5px ; background-color: grey;">4</li>
+                    <li style="width: 70px; height: 30px; text-align: center; padding-top: 10px; margin: 2px 5px 2px 5px ; background-color: grey;">5</li>
+                    <li style="width: 70px; height: 30px; text-align: center; padding-top: 10px; margin: 2px 5px 2px 5px ; background-color: grey;">6</li>
+                    <li style="width: 70px; height: 30px; text-align: center; padding-top: 10px; margin: 2px 5px 2px 5px ; background-color: lightgrey;">x</li>
+                </ul>
+            </div>
+            <div>
+                <ul style="list-style-type: none; display: flex; padding: 5px 20px 5px 20px; margin: 2px;">
+                    <li style="width: 70px; height: 30px; text-align: center; padding-top: 10px; margin: 2px 5px 2px 5px ; background-color: lightgrey;">^</li>
+                    <li style="width: 70px; height: 30px; text-align: center; padding-top: 10px; margin: 2px 5px 2px 5px ; background-color: lightgrey;">tan</li>
+                    <li style="width: 70px; height: 30px; text-align: center; padding-top: 10px; margin: 2px 5px 2px 5px ; background-color: lightgrey;">1/x</li>
+                    <li style="width: 70px; height: 30px; text-align: center; padding-top: 10px; margin: 2px 5px 2px 5px ; background-color: grey;">1</li>
+                    <li style="width: 70px; height: 30px; text-align: center; padding-top: 10px; margin: 2px 5px 2px 5px ; background-color: grey;">2</li>
+                    <li style="width: 70px; height: 30px; text-align: center; padding-top: 10px; margin: 2px 5px 2px 5px ; background-color: grey;">3</li>
+                    <li style="width: 70px; height: 30px; text-align: center; padding-top: 10px; margin: 2px 5px 2px 5px ; background-color: lightgrey;">-</li>
+                </ul>
+            </div>
+            <div>
+                <ul style="list-style-type: none; display: flex; padding: 5px 20px 5px 20px; margin: 2px;">
+                    <li style="width: 70px; height: 30px; text-align: center; padding-top: 10px; margin: 2px 5px 2px 5px ; background-color: lightgrey;">Exp</li>
+                    <li style="width: 70px; height: 30px; text-align: center; padding-top: 10px; margin: 2px 5px 2px 5px ; background-color: lightgrey;">#</li>
+                    <li style="width: 70px; height: 30px; text-align: center; padding-top: 10px; margin: 2px 5px 2px 5px ; background-color: lightgrey;">e</li>
+                    <li style="width: 70px; height: 30px; text-align: center; padding-top: 10px; margin: 2px 5px 2px 5px ; background-color: grey;">0</li>
+                    <li style="width: 70px; height: 30px; text-align: center; padding-top: 10px; margin: 2px 5px 2px 5px ; background-color: grey;">.</li>
+                    <li style="width: 70px; height: 30px; text-align: center; padding-top: 10px; margin: 2px 5px 2px 5px ; background-color: lightblue;">=</li>
+                    <li style="width: 70px; height: 30px; text-align: center; padding-top: 10px; margin: 2px 5px 2px 5px ; background-color: lightgrey;">+</li>
+                </ul>
+            </div>
+           
+        </div>
+    </div>
+ 
+    
+
+    <script src="index.js"></script>
+</body>
+</html>
